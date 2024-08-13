@@ -1,0 +1,1636 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+ nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    position: absolute;  
+    padding-left: 850px;
+    top: 20px;
+    left: 53px; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    z-index: 100;
+ }
+ .nav1 {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: beige;
+    height: 60px;
+    z-index: 100;
+    color: chocolate;
+    font-size: 20px;
+    border-bottom: 2px chocolate solid;
+    width: 100%;
+    gap: 60px;
+    margin-top: -5px;
+ }
+ 
+ .box2 {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 0px;
+    color: chocolate;
+    margin-left: 10px;
+    
+ }
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+ .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: whitesmoke;
+            z-index: 1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
+            padding: 12px 16px;
+            min-width: 600px;
+            width:600px;
+            height: 400px;
+            border-radius: 10px;
+            margin-top: 0px;
+            left: -400%;
+ }
+ .dropdown-content img {
+    height: 300px;
+    width: 300px;
+    padding-left: 200px;
+ }
+ .dropdown:hover .dropdown-content {
+    display: block;
+ }
+ ul a:hover {
+    color: black;
+ }
+ ul a {
+    text-decoration: none;
+    color: chocolate;
+    margin-bottom: 10px;
+ }
+ 
+
+h1, .middle-div {
+    margin-top: -20px;
+}
+
+.divicons {
+    display: flex;
+    margin-top: -15px;
+    gap: 10px   ;
+}
+
+.vidbody {
+    position: relative;
+    width: 100%;
+    background-color:white; 
+    margin-top: 60px;
+    
+}
+.vid {
+    width: 100%;  
+      
+}
+.vidtext {
+    position: absolute;
+    text-align: center;
+    font-size: 53px;
+    top: 450px;
+    font-family: georgia;
+       
+}
+.vidtext2 {
+    color:beige;
+}
+.book {
+    height: 30px;
+    width: 200px;
+    color: white;
+    border: 1px white solid;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.book:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+ li {
+    font-size: 30px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+a {
+    text-decoration: none;
+}
+
+.firstbgimg {
+    background-image: url(bg\ 18.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -100px;
+    height: 550px;
+    position: relative;  
+    width: 100vw;
+    border-radius: 20px;
+    animation-name: boxanime;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    margin: 0 auto;
+    animation-timing-function: ease-out;
+     
+} 
+@keyframes boxanime {
+    50%{background-image: url(asian\ 1.jpg);}
+    75%{background-image:url(bg\ 4.jpg);}
+    100%{background-image: url(bg\ 19.png);}
+
+    
+}
+
+    
+    
+.forshopnow {
+    margin-left: 250px;
+   margin-top: 250px;
+   height: 30px;
+   width: 150px;
+   font-size: 20px;
+   color: rgb(129, 59, 9);
+   background-color: beige;
+   font-family: lucida;
+   border: 1px solid black;   
+    
+}
+   
+
+
+.horizontal7 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.divbody3 {
+    background-color: white;
+    height: 500px;
+    position: relative;
+    margin-top: 60px;
+}
+.div3 img {
+    height: 500px;
+    width: 570px;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+}
+.div4 {
+    position: absolute;
+    top: 380px;
+    left: 370px;
+    color: white;
+    
+}
+.clean {
+    font-size: 20px;
+    color: white  ;
+    font-family: georgia;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 60px;
+}
+.button1 {
+    height: 25px;
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border: 2px white solid;
+}
+.button1:hover {
+    background-color: orangered ;
+    color: white;
+}
+.div5 {
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    color: white; 
+}
+.toner {
+    font-size: 25px;
+    color: gray;
+    text-shadow: 2px 2px 2px white; 
+    margin-right: 10px;
+}
+.button2 {
+    height: 25px;
+    width: 130px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border: 2px solid white;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.button2:hover {
+    background-color: maroon;
+    color: white;
+}
+.b2:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.9s ease-in-out;
+}
+.horizontal9 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* display: flex;
+    justify-content: space-between; */
+    
+
+}
+.featured {
+    background-color: white;
+    height: 400px;
+    width: 255px;
+    margin-top: 79px;
+    
+    
+}
+.featured1 img {
+    height: 260px;
+    width: 240px;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+
+.ftext {
+    color: black;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: georgia;
+    padding-left: 15px;
+    border-top: 2px solid black;
+
+}
+.ftext2 {
+    border-right: 2px solid black;
+    padding-left: 5px;
+    font-size: 15px;
+    font-family: "segoe ui";
+}
+.fbutton {
+    height: 28px;
+    width: 150px;
+    margin-left: -80px;
+    background-color: purple;
+    color: white;
+    border: 1px black solid;
+    font-size: 16px;
+}
+.fbutton:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.divbody1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.boxindiv1 {
+    display: flex;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 1000px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.imgindiv1 {
+    background-image: url(photo\ 8.avif) ;
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* .insideimg1 {
+    padding-top: 400px;
+} */
+.textindiv1 {
+    height: 500px; 
+    width: 500px; 
+}
+.divbody2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.boxindiv2 {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    margin-top: 80px;
+}
+.services {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.textindiv2 {
+    height: 500px;
+    width: 500px; 
+}
+.imgindiv2 {
+    background-image: url(photo\ 9.avif);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.horizontal3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;   
+     
+}
+
+.our {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'segoe ui';
+
+}
+/* .items110 {
+    height: 400px;
+    width: 300px;
+    background-color:rgb(207, 206, 206);
+
+} */
+.item111 img {
+    height: 300px;
+    width: 280px; 
+    border-radius: 10px; 
+    
+    
+}
+.item111 {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.text {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 15px;
+    height: 40px;
+    width: 280px;
+    border: 2px black solid;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
+}
+.text:hover {
+    background-color: deeppink;
+    color: whitesmoke;
+}
+
+
+
+p {
+    font-size: 14px;
+    color: black;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 span {
+    display: flex;
+    justify-content: center;
+    font-family: georgia;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+
+}
+h2 {
+    
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 15px;
+    
+}
+/* .horizontal {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 13px;
+    
+} */
+.items {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+.items img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    
+    
+    
+}
+.about {
+    background-color: black;
+    margin: 0px;  
+    padding: 50px 0px;
+    
+}
+p {
+    padding: 10px;
+}
+h3 {
+    text-align: center;
+    color: black;
+}
+.img1 {
+    background-image: url(photo\ 5.webp);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.learn {
+    margin-top: 261px;
+    margin-left: 80px;
+    height: 30px;
+    width: 170px;
+    background-color:yellow;
+    color: black;
+    border: none; 
+}
+.img2 {
+    background-image: url(photo\ 6.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.itemss1 {
+    height: 320px;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    margin-left: 17px;
+
+}
+h2 {
+    padding-bottom: 10px;
+}
+
+
+
+.horizontal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+    
+}
+.items1 {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(204, 182, 166);
+    
+}
+.itemss img{
+    height: 300px;
+    width: 280px;
+    
+}
+.itemss {
+    margin-top: 15px;
+    margin-left: 9px;
+    
+}
+.item img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: auto; 
+}
+
+h4 {
+    font-size: 13px;
+    text-align: center;
+}
+.one {
+    font-size: 15px;
+    padding: 5px 2px;
+    border-radius: 9px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.one:hover {
+    background-color: deeppink;
+    color: whitesmoke; 
+}
+.horizontal8 {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.adiv1 {
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    background-color: white;
+    margin-top: 95px;
+}
+.asiandiv1 img {
+    height: 350px;
+    width:350px;
+    border-radius: 10px;
+}
+.asiandiv1 {
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.asiandiv2 img {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+/* .asiandiv2 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(asian\ 1.jpg);
+    position: relative;
+    border-radius: 20px;
+} */
+/* .animation3 {
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    animation-name: myanime1;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+    position: relative
+} */
+@keyframes myanime1 {
+    0%{background-image: url(bg\ 13.avif); left: 50px;}
+    25%{background-image: url(bg\ 17.png); top: 60px;}
+    30%{background-image: url(bg\ 19.png); right: 200px;}
+    50%{background-image: url(bg\ 20.webp); bottom: 100px;}
+    75%{background-image: url(bg\ 4.jpg) ;top: 50px;}
+    80%{background-image:url(bg\ 12.jpg) ; right: 50px;}
+    
+}
+    
+
+.asiandiv3 img {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+.asiandiv3 {
+    margin-top: 120px;
+    margin-left: 45px;
+    
+}
+.asiantext {
+      font-size: 40px;
+      margin-left: 435px;
+      margin-top: 10px;
+      width: 500px;
+      height: 60px;
+      background-color: white;
+      border: 2px green solid;
+      color: green;
+}
+.asiantext:hover {
+    background-color: palevioletred;
+    color: maroon;
+    cursor: pointer;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:gray;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    height: 50vh;
+    padding-left: 10px;
+    margin-top: 50px;
+    padding: 30px;
+
+    
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between  ;
+    width: 100%;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 20px;
+}
+.footer2 a, .footer2 h2 {
+    text-align: left;
+    
+    
+}
+.footer2 h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 1px;
+}
+h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+.susannaskinfooter {
+    font-size: 40px;
+    padding-top: 1px;
+    text-align: left;
+}
+.sub {
+    font-size: 20px;
+    padding-top: 20px;
+    color: whitesmoke;
+    text-align: left;
+}
+.infoinfooter {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 1px;
+    
+}
+.servicesinfooter {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-top: 1px;
+}
+.myacctinfooter {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-top: 1px;
+}
+.footer2 a {
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.subhead {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+.horizontal2 {
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    gap: 20px;
+}
+
+.middle-div {
+    display: flex; justify-content: space-between;
+}
+
+.sm {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .firstbgimg {
+        background-image: url(bg\ 18.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 -100px;
+        height: 300px;
+        width: 80%;
+        position: relative;   
+    } 
+    /* h1 {
+        position: absolute;
+        font-size: 11px;
+        color:chocolate;
+        text-shadow: 3px 3px 3px gray;
+        left: 190px;
+        top: 2px;
+    } */
+    .forshopnow {
+        margin-left: 50px;
+        margin-top: 90px;
+        height: 20px;
+        width: 100px;
+        font-size: 15px;
+        color: rgb(129, 59, 9);
+        background-color: beige;
+        font-family: lucida;
+        border: 1px solid black;   
+         
+     }
+    
+    
+
+    .horizontal3, .horizontal7  {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .boxindiv1, .divbody1 {
+        height: auto;
+    
+    }
+    .boxindiv1 {
+        display: flex;
+        background-color: whitesmoke;
+        width: 70%;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+        
+        
+    }
+    .imgindiv1 {
+        background-image: url(photo\ 8.avif) ;
+        height: 310px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+    .texts {
+        font-size: 15px;
+    }
+    p {
+        padding-bottom: 1%;
+        font-size: 10px;
+    }
+
+    .sm {
+        display: block;
+    }
+    
+    
+    .div3 img, .textindiv1 {
+        width: 500px;
+        height: auto;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .div3 {
+        position: relative;
+        margin-left: 135px; 
+        margin-bottom: 0px;
+    }
+
+    .div4 {
+        top: 40%;
+        left: 55%;
+    }
+    .clean {
+        margin-top: 100px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .button1 {
+        position: absolute;
+        height: 22px;
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: 1px solid white;
+        top: 110px;
+        right: 1px;
+        
+    }
+    .toner {
+        font-size: 15px;
+    }
+    .button2 {
+        position: absolute;
+        height: 22px;
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: 1px solid white;
+        top: 5px;
+        right: 30px;
+        
+    }
+    .divbody2 ,.boxindiv2 {
+        height: auto;
+    }
+    .boxindiv2 {
+        display: flex;
+        background-color: whitesmoke;
+        width: 70%;
+        color: black;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+    }
+    .imgindiv2 {
+        background-image: url(photo\ 9.avif) ;
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    
+    }
+    .textindiv2 {
+        height:210px ;
+        width: 300px;
+    }
+    .services {
+        font-size: 20px;
+    }
+    li {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .div5 {
+        top: 75%;
+        left: 55%;
+    }
+    .horizontal8 {
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .adiv1 {
+        position: relative;
+        height: 500px;
+        width: 1200px;
+        background-color: white;
+        margin-top: 95px;
+        
+    }
+    .asiandiv1 img {
+        height: 220px;
+        width:220px;
+        border-radius: 10px;
+    }
+    .asiandiv1 {
+        margin-top: 120px;
+        margin-left:9px;
+    }
+    .asiandiv2 img {
+        height: 220px;
+        width: 220px;
+        border-radius: 10px;
+        margin-right: 22px;
+    }
+    .asiandiv2 {
+        margin-left: 25px;
+    }
+    
+    .asiandiv3 img {
+        height: 220px;
+        width: 220px;
+        border-radius: 10px;
+        margin-left: 22px;
+    
+    }
+    .asiandiv3 {
+        margin-top: 120px;
+        margin-left: 0px;
+        
+    }
+    .asiantext {
+          font-size: 20px;
+          margin-left:200px;
+          width: 300px;
+          height: 40px;
+          background-color: white;
+          border: 2px green solid;
+          color: green;
+    }
+    .asiantext:hover {
+        background-color: palevioletred;
+        color: maroon;
+        cursor: pointer;
+    }
+    .lg {
+        display: none;
+    }
+    .horizontal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .one {
+        font-size: 15px;
+        padding: 5px 2px;
+        height: 30px;
+        width: 90%;
+        background-color: whitesmoke;
+        color: black;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 4px;
+        
+    }
+    .one:hover {
+        background-color: deeppink;
+        color: whitesmoke; 
+    }
+    .itemss1 {
+        height: 280px;
+        width: 160px;
+        margin-left: 20px;
+    }
+    .items img {
+        height: 90%;
+        width: 90%;
+    }
+    .text {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 0px;
+        height: 40px;
+        width: 300px;
+        margin-left: 27px;
+        border: 2px black solid;
+        background-color: whitesmoke;
+        color: black;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        
+    }
+    .horizontal3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .item111 img {
+        height: 300px;
+        width: 300px; 
+        border-radius: 10px; 
+        margin-left: 26px;    
+    }
+    .item111 {
+        margin-left: 15px;
+        
+    }
+    .horizontal9 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    
+    }
+    .featured {
+        background-color: white;
+        height: auto;
+        width: 255px;
+        margin-top: 79px;
+        
+        
+    }
+    .featured1 img {
+        height: 150px;
+        width: 150px;
+        margin-left: 130px;
+        margin-bottom: 30px;
+    }
+    .ftext {
+        color: black;
+        padding-top: 50px;
+        font-size: 25px;
+        font-family: georgia;
+        margin-left: 130px;
+        border-top: none;
+        border-bottom: 2px solid black;
+    
+    }
+    .ftext2 {
+        border: none;
+        margin-left: 160px;
+        font-size: 15px;
+        font-family: "segoe ui";
+        
+    }
+    .fbutton {
+        height: 28px;
+        width: 150px;
+        margin-left: -80px;
+        background-color: purple;
+        color: white;
+        border: 1px black solid;
+        font-size: 16px;
+        margin-left: 55%;
+    }
+    .fbutton:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .vidtext {
+        position: absolute;
+        text-align: center;
+        font-size: 35px;
+        top: 230px;
+        font-family: lucida;
+           
+    }
+    .vidtext2 {
+        color:beige;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color:gray;
+        color: whitesmoke;
+        border-radius: 10px;
+        text-align: center;
+        height: 50vh;
+        padding-left: 10px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .footer1 {
+        display: flex;
+        justify-content: space-between  ;
+        width: 100%;
+    }
+    
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 20px;
+    }
+    .footer2 a, .footer2 h2 {
+        text-align: left;
+        
+        
+    }
+    .footer2 h2 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 1px;
+    }
+    h6 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 14px;
+        
+    }
+    .susannaskinfooter {
+        font-size: 40px;
+        padding-top: 1px;
+        text-align: left;
+    }
+    .sub {
+        font-size: 15px;
+        padding-top: 20px;
+        color: whitesmoke;
+        text-align: left;
+    }
+    .infoinfooter {
+        font-size: 5px;
+        padding-left: 1px;
+        letter-spacing: 0px;
+        
+    }
+    .servicesinfooter {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .myacctinfooter {
+        font-size: 30px;
+        letter-spacing: 0px;
+
+    }
+    .footer2 a {
+        font-size: 13px;
+        padding-bottom: 5px;
+        color: whitesmoke;
+        padding-left: 20px;
+    }
+    
+
+}
+
+@media only screen and (max-width:479px) {
+    .boxindiv1 {
+        display: block;
+    }
+    .nav1 {
+        justify-content: space-between;
+        height: 10px;
+    }
+    h1 {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .firstbgimg {
+        background-image: url(bg\ 18.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -150px;
+        height: 400px;
+        position: relative;  
+        width: 50%;
+        animation-name: boxanime;
+        animation-duration: 15s;
+        animation-delay: 10s;
+        animation-iteration-count: infinite;
+        margin: 0 auto;
+        animation-timing-function: ease-out;
+         
+    } 
+    @keyframes boxanime {
+        50%{background-image: url(asian\ 1.jpg);}
+        75%{background-image:url(bg\ 4.jpg);}
+        100%{background-image: url(bg\ 19.png);}
+    
+        
+    }
+    
+    .hamburger {
+        margin-top: -15px;
+    }
+    .firstbgimg {
+        background-image: url(bg\ 18.webp);
+        background-repeat: no-repeat;
+        /* background-size: cover;
+        height: 200px; */
+        width: 100%;
+        position: relative;   
+        
+    } 
+    /* h1 {
+        position: absolute;
+        font-size: 11px;
+        color:chocolate;
+        text-shadow: 3px 3px 3px gray;
+        left: 190px;
+        top: 2px;
+    } */
+    .forshopnow {
+        margin-left: 50px;
+        margin-top: 90px;
+        height: 20px;
+        width: 100px;
+        font-size: 15px;
+        color: rgb(129, 59, 9);
+        background-color: beige;
+        font-family: lucida;
+        border: 1px solid black;   
+         
+     }
+
+    .horizontal3, .horizontal7  {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .boxindiv1, .divbody1 {
+        height: auto;
+    
+    }
+    .boxindiv1 {
+        display: block;
+        background-color: whitesmoke;
+        width: 70%;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+        
+        
+    }
+    .imgindiv1 {
+        background-image: url(photo\ 8.avif) ;
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        
+    }
+    .texts {
+        font-size: 15px;
+    }
+    p {
+        padding-bottom: 1%;
+        font-size: 10px;
+    }
+    
+    
+    .div3 img, .textindiv1 {
+        width: 300px;
+        height: auto;
+        margin-left: 0;
+    }
+    .div3 {
+        position: relative;
+        margin-left: 65px; 
+        margin-bottom: 0px;
+    }
+
+    .div4 {
+        top: 40%;
+        left: 55%;
+    }
+    .clean {
+
+        font-size: 12px;
+        margin-left: -50px;
+    }
+    .button1 {
+        position: absolute;
+        height: 22px;
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: 1px solid white;
+        top: 110px;
+        right: 1px;
+        
+    }
+    .toner {
+        font-size: 15px;
+        
+    }
+    .button2 {
+        position: absolute;
+        height: 22px;
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: 1px white solid;
+        top: -5px;
+        right: 30px;
+        
+    }
+    .divbody2 ,.boxindiv2 {
+        height: auto;
+    }
+    .boxindiv2 {
+        display: block;
+        background-color: whitesmoke;
+        width: 70%;
+        color: black;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
+        margin-right: 10px;
+    }
+    .imgindiv2 {
+        background-image: url(photo\ 9.avif) ;
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    
+    }
+    .textindiv2 {
+        height:210px ;
+        width: 300px;
+    }
+    .services {
+        font-size: 20px;
+    }
+    li {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .div5 {
+        top: 75%;
+        left: 55%;
+    }
+    .horizontal8 {
+        display: flex;
+        justify-content: space-between;  
+    }
+    .adiv1 {
+        position: relative;
+        height: 300px;
+        width: 500px;
+        background-color: white;
+     
+    }
+    .asiandiv1 img {
+        height: 100px;
+        width:100px;
+        border-radius: 10px;
+    }
+    .asiandiv1 {
+        margin-left: 20px;
+    }
+    .asiandiv2 img {
+        height: 120px;
+        width: 120px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    .asiandiv2 {
+        margin-left: 15px;
+    }
+    
+    .asiandiv3 img {
+        height: 120px;
+        width: 120px;
+        border-radius: 10px;
+    
+    }
+    .asiandiv3 {
+        margin-top: 50px;
+        margin-left: 0px;
+        
+    }
+    .asiantext {
+          font-size: 20px;
+          margin-left:  120px;
+          margin-top: 0px;
+          width: 200px;
+          height: 30px;
+          background-color: white;
+          border: 2px green solid;
+          color: green;
+    }
+    .asiantext:hover {
+        background-color: palevioletred;
+        color: maroon;
+        cursor: pointer;
+    }
+    .lg {
+        display: none;
+    }
+    .horizontal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .one {
+        font-size: 15px;
+        padding: 5px 2px;
+        height: 30px;
+        width: 90%;
+        background-color: whitesmoke;
+        color: black;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 4px;
+        
+    }
+    .one:hover {
+        background-color: deeppink;
+        color: whitesmoke; 
+    }
+    .itemss1 {
+        height: 280px;
+        width: 160px;
+        margin-left: 20px;
+    }
+    .items img {
+        height: 90%;
+        width: 90%;
+        
+    }
+    .text {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 0px;
+        height: 30px;
+        width: 160px;
+        margin-left: 10px;
+        border: 2px black solid;
+        background-color: whitesmoke;
+        color: black;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        
+    }
+    .horizontal3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .item111 img {
+        height: 180px;
+        width: 180px; 
+        border-radius: 10px; 
+        padding-left: 0px;    
+    }
+    .item111 {
+        margin-left: 15px;
+        
+    }
+    .horizontal9 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    
+    }
+    .featured {
+        background-color: white;
+        height: auto;
+        width: 255px;
+        margin-top: 79px;
+        
+        
+    }
+    .featured1 img {
+        height: 150px;
+        width: 150px;
+        margin-left: 130px;
+        margin-bottom: 30px;
+    }
+    .ftext {
+        color: black;
+        padding-top: 50px;
+        font-size: 25px;
+        font-family: georgia;
+        margin-left: 130px;
+        border-top: none;
+        border-bottom: 2px solid black;
+    
+    }
+    .ftext2 {
+        border: none;
+        margin-left: 160px;
+        font-size: 15px;
+        font-family: "segoe ui";
+        
+    }
+    .fbutton {
+        height: 28px;
+        width: 150px;
+        margin-left: -80px;
+        background-color: purple;
+        color: white;
+        border: 1px black solid;
+        font-size: 16px;
+        margin-left: 55%;
+    }
+    .fbutton:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .vidtext {
+        position: absolute;
+        text-align: center;
+        font-size: 10px;
+        top: 140px;
+        left: 50px;
+        font-family: georgia;
+           
+    }
+    .vidtext2 {
+        color:beige;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color:gray;
+        color: whitesmoke;
+        border-radius: 10px;
+        text-align: center;
+        height: 50vh;
+        padding-left: 10px;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .footer1 {
+        display: flex;
+        justify-content: space-between  ;
+        width: 100%;
+    }
+    
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 20px;
+    }
+    .footer2 a, .footer2 h2 {
+        text-align: left;
+        
+        
+    }
+    .footer2 h2 {
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 1px;
+    }
+    h6 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 14px;
+        
+    }
+    .susannaskinfooter {
+        font-size: 40px;
+        padding-top: 1px;
+        text-align: left;
+    }
+    .sub {
+        font-size: 15px;
+        padding-top: 20px;
+        color: whitesmoke;
+        text-align: left;
+    }
+    .infoinfooter {
+        font-size: 5px;
+        padding-left: 1px;
+        letter-spacing: 0px;
+        
+    }
+    .servicesinfooter {
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .myacctinfooter {
+        font-size: 30px;
+        letter-spacing: 0px;
+
+    }
+    .footer2 a {
+        font-size: 13px;
+        padding-bottom: 5px;
+        color: whitesmoke;
+        padding-left: 20px;
+    }
+    
+}
+

@@ -1,0 +1,291 @@
+.b1 {
+    height: 50px;
+    width: 100px;
+    background-color: whitesmoke;
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+    
+}
+body {
+    background-color: black;
+}
+.b1:hover {
+   background-color: black;
+   color: white;
+   box-shadow: 3px 3px 3px green, -3px -3px 3px orangered;
+    
+
+}
+.b2 {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.b2:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+   
+}
+.b3 {
+    background-color: whitesmoke;
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b3:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b4{
+    background-color: blue;
+    color: whitesmoke;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b4:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b5{
+    background-color: deeppink;
+    color: purple;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b5:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b6 {
+    background-color: chartreuse;
+    color: whitesmoke;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b6:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b7{
+    background-color: whitesmoke;
+    color: black;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b7:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b8{
+    background-color: brown;
+    color: whitesmoke;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b8:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink; 
+}
+.b9 {
+    background-color: yellow;
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b9:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink; 
+}
+.b10 {
+    background-color: orange;
+    color: whitesmoke;
+font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b10:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;  
+}
+.b11{
+    background-color: yellow;
+    color: whitesmoke;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b11:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+}
+.b12 {
+    background-color: rgb(12, 11, 11);
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b12:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink; 
+}
+.b13 {
+    background-color: blue;
+    color: black;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b13:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+}
+.b14 {
+    background-color: whitesmoke;
+    color: blue;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b14:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}
+.b15 {
+    background-color: rgb(8, 8, 8);
+    color: red;
+    font-style: italic;
+    border: none;
+    font-family: verdana;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.b15:hover{
+    background-color: whitesmoke;
+   color: black;
+   box-shadow: 3px 3px 3px skyblue, -3px -3px 3px deeppink;
+    
+}

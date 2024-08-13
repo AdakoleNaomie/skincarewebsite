@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.scrubimg {
+background-image: url(sbg\ 4.jpg);
+background-position: 0px -140px;
+background-size: cover;
+background-repeat: no-repeat;
+height: 490px;
+}
+
+.horizontal5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+}
+.head5 {
+    color: rgb(3, 93, 129);
+    font-size: 30px;
+    font-weight: bolder;
+  
+}
+.svg {
+    padding-left: 10px;
+    
+}
+.scrubtext {
+    text-align: right;
+    padding-top: 330px;
+    font-size: 50px;
+    margin-right: 20px;
+    color: rgb(3, 93, 129); 
+    font-family: verdana;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+}
+  
+.our {
+    color: rgb(3, 93, 129);
+
+}
+.shopnow4 {
+    height: 320px;
+    width: 220px;
+    background-color: mistyrose;
+    
+}
+.one111 img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    
+}
+.hthree3 {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(3, 93, 129);
+}
+.price3 {
+    text-align: center;
+    color: rgb(3, 93, 129);
+}
+.b111 {
+    margin-top: 12px;
+    margin-left: 35px;
+    width: 150px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: rgb(3, 93, 129);
+    color: mistyrose;
+    
+}
+.b111:hover {
+    background-color: deeppink;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+

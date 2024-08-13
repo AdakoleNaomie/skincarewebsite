@@ -1,0 +1,81 @@
+.horizontal5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+}
+.bgimg {
+    background-image: url(serum\ bgimg3.avif);
+    height: 500px;
+    background-position: 0px -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    
+    
+}
+.heading3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: orangered;
+    
+    
+}
+.shopnow4 {
+    height: 320px;
+    width: 220px;
+    background-color: rgb(153, 185, 197);
+    
+}
+.one12 img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    
+}
+.serumtext {
+    font-size: 70px;
+    text-align: right;
+    font-family: georgia;
+    font-style: bold;
+    padding-top: 190px;
+    padding-right: 60px;
+    color:orangered;
+    text-shadow: -3px -3px 3px black;
+    
+}
+.hthree2 {
+    text-align: center;
+    font-size: 13px;
+}
+.price2 {
+    text-align: center;
+}
+.b12 {
+    margin-top: 12px;
+    margin-left: 35px;
+    width: 150px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: orangered;
+    color: whitesmoke;
+}
+.b12:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+nav a {
+    color: orangered;
+}
+.head2 {
+    color: orangered;
+}
+svg {
+    padding-left: 18px;
+    color: orangered;
+}
+
