@@ -9,8 +9,9 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     
+    
 }
- nav {
+ /* nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 45px;
@@ -24,31 +25,31 @@ body {
     left: 0;
     background-color: red;
     z-index: 100;
- }
+ } */
  .nav1 {
     /* display: grid;
     grid-template-columns: repeat(5, 1fr); */
     display: flex;
-    padding-left: 30px;
+    padding-left: 100px;
     padding-right: 30px;
     padding-top: 30px;
     padding-bottom: 10px;
     position: fixed;
     background-color: beige;
-    height: 60px;
+    height: 3em;
     z-index: 100;
     color: chocolate;
     font-size: 20px;
     border-bottom: 2px chocolate solid;
-    width: 100%;
-    gap: 60px;
+    width: 70em;
+    gap: 100px;
     margin-top: -5px;
  }
  
  .box2 {
     width: 150px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-right: 0px;
     color: chocolate;
     margin-left: 10px;
@@ -61,13 +62,12 @@ body {
  .dropdown-content {
             display: none;
             position: absolute;
-            background-color: whitesmoke;
+            background-color: ghostwhite;
             z-index: 1;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
             padding: 12px 16px;
-            min-width: 600px;
-            width:600px;
-            height: 400px;
+            width:400px;
+            height: 300px;
             border-radius: 10px;
             margin-top: 0px;
             left: -400%;
@@ -88,7 +88,98 @@ body {
     color: chocolate;
     margin-bottom: 10px;
  }
- 
+ .dimg{
+    background-image: url(bg\ 19.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 190px;
+    margin-top: -300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ .kb {
+    display: flex;
+    flex-direction: column;
+ }
+ .kb a {
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+ }
+ .kb a:hover {
+    color: red;
+ }
+ .dimg1 {
+    background-image: url(bg\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 190px;
+    margin-top: -276px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ .kb1 {
+    display: flex;
+    flex-direction: column;
+ }
+ .kb1 a {
+    color: black;
+    padding-top: 10px;
+    
+ }
+ .kb1 a:hover {
+    color: red;
+ }
+ .dimg2{
+    background-image: url(bg\ 2.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 170px;
+    margin-top: -277px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ .kb2 {
+    display: flex;
+    flex-direction: column;
+ }
+ .kb2 a {
+    padding-top: 15px;
+    color: black;
+    font-size: 25px;
+ }
+ .kb2 a:hover {
+    color: red;
+ }
+ .dimg3{
+    background-image: url(bg\ 5.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: -277px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ .kb3 {
+    display: flex;
+    flex-direction: column;
+ }
+ .kb3 a {
+    padding-top: 15px;
+    color: black;
+    font-size: 25px;
+ }
+ .kb3 a:hover {
+    color: red;
+ }
 
 h1, .middle-div {
     margin-top: -20px;
@@ -152,26 +243,15 @@ a {
     position: relative;  
     width: 100vw;
     border-radius: 20px;
-    animation-name: boxanime;
-    animation-duration: 15s;
-    animation-delay: 10s;
-    animation-iteration-count: infinite;
-    margin: 0 auto;
-    animation-timing-function: ease-out;
+    
      
 } 
-@keyframes boxanime {
-    50%{background-image: url(asian\ 1.jpg);}
-    75%{background-image:url(bg\ 4.jpg);}
-    100%{background-image: url(bg\ 19.png);}
 
-    
-}
 
     
     
-.forshopnow {
-    margin-left: 250px;
+/* .forshopnow {
+   margin-left: 50px;
    margin-top: 250px;
    height: 30px;
    width: 150px;
@@ -181,7 +261,7 @@ a {
    font-family: lucida;
    border: 1px solid black;   
     
-}
+} */
    
 
 
@@ -1185,54 +1265,186 @@ h6 {
 
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width:470px) {
     .boxindiv1 {
         display: block;
     }
     .nav1 {
-        justify-content: space-between;
-        height: 10px;
+        height: 50px;
+        width: 100%;
+
     }
-    h1 {
+    
+    .fh {
         font-size: 10px;
-        margin-top: -10px;
-    }
-    .firstbgimg {
-        background-image: url(bg\ 18.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0px -150px;
-        height: 400px;
-        position: relative;  
-        width: 50%;
-        animation-name: boxanime;
-        animation-duration: 15s;
-        animation-delay: 10s;
-        animation-iteration-count: infinite;
-        margin: 0 auto;
-        animation-timing-function: ease-out;
-         
-    } 
-    @keyframes boxanime {
-        50%{background-image: url(asian\ 1.jpg);}
-        75%{background-image:url(bg\ 4.jpg);}
-        100%{background-image: url(bg\ 19.png);}
+        margin-top: -5px;
+        margin-left: -70px;
     
         
-    }
-    
-    .hamburger {
-        margin-top: -15px;
+        
     }
     .firstbgimg {
         background-image: url(bg\ 18.webp);
         background-repeat: no-repeat;
-        /* background-size: cover;
-        height: 200px; */
+        background-size: contain;
+        background-position: 0px -20px;
+        height: 400px;
+        position: relative;  
+        width: 100%;
+       
+         
+    } 
+    
+    /* .firstbgimg {
+        background-image: url(bg\ 18.webp);
+        background-repeat: no-repeat;
+         background-size: cover;
+         background-position:0px -20px ;
+        height: 200px;
         width: 100%;
         position: relative;   
         
-    } 
+    }  */
+    .box2 {
+        width: 100%;
+        height: 30px;
+        margin-top: 1px;  
+        color: chocolate;
+        margin-left: -150px;
+        font-size: 15px;
+        
+        
+        
+     }
+     .dropdown {
+        position: relative;
+        display: inline-block;
+     }
+     .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: whitesmoke;
+                z-index: 1;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
+                padding: 12px 16px;
+                width:200px;
+                height: 200px;
+                border-radius: 10px;
+                margin-top: 0px;
+                left: -150%;
+     }
+     .dimg{
+        background-image: url(bg\ 19.png);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 100px;
+        margin-left: 85px;
+        margin-top: -207px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+     }
+     .kb {
+        display: flex;
+        margin-top: -15px;
+        
+     }
+     .kb a {
+        color: black;
+        font-size: 12px;
+        
+     }
+     .kb a:hover{
+        color: red;
+     }
+     .dimg1 {
+        background-image: url(bg\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 100px;
+        margin-left: 90px;
+        margin-top: -184px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+     }
+     .kb1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+     }
+     .kb1 a {
+        color: black;
+        padding-top: 5px;
+        margin-left: -10px;
+        
+     }
+     .kb1 a:hover{
+        color: red;
+     }
+     .dimg2{
+        background-image: url(bg\ 2.webp);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 110px;
+        margin-left: 80px;
+        margin-top: -187px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+     }
+     .kb2 {
+        display: flex;
+        flex-direction: column;
+
+     }
+     .kb2 a {
+        padding-top: 8px;
+        color: black;
+        font-size: 15px;
+        
+     }
+     .kb2 a:hover{
+        color: red;
+     }
+     .dimg3{
+        background-image: url(bg\ 5.png);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 99px;
+        margin-left: 91px;
+        margin-top: -182px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+     }
+     .kb3 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+     }
+     .kb3 a {
+        padding-top: 8px;
+        margin-left: -13px;
+        color: black;
+        font-size: 13px;
+     }
+     .kb3 a:hover{
+        color: red;
+     }
+     .dropdown:hover .dropdown-content {
+        display: block;
+     }
+     ul a:hover {
+        color: black;
+     }
+     ul a {
+        text-decoration: none;
+        color: chocolate;
+        margin-bottom: 10px;
+     }
+     
+    
     /* h1 {
         position: absolute;
         font-size: 11px;
@@ -1242,8 +1454,8 @@ h6 {
         top: 2px;
     } */
     .forshopnow {
-        margin-left: 50px;
-        margin-top: 90px;
+        margin-left: -350px;
+        margin-top: 60px;
         height: 20px;
         width: 100px;
         font-size: 15px;
@@ -1254,9 +1466,9 @@ h6 {
          
      }
 
-    .horizontal3, .horizontal7  {
+    /* .horizontal3, .horizontal7  {
         grid-template-columns: repeat(1, 1fr);
-    }
+    } */
     .boxindiv1, .divbody1 {
         height: auto;
     
@@ -1268,7 +1480,8 @@ h6 {
         color: black;
         border-radius: 10px;
         box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-        margin-right: 10px;
+        
+        
         
         
     }
@@ -1389,38 +1602,38 @@ h6 {
      
     }
     .asiandiv1 img {
-        height: 100px;
-        width:100px;
+        height: 170px;
+        width:170px;
         border-radius: 10px;
+        
     }
     .asiandiv1 {
-        margin-left: 20px;
+        margin-left: 12px;
     }
     .asiandiv2 img {
-        height: 120px;
-        width: 120px;
+        height: 170px;
+        width: 170px;
         border-radius: 10px;
-        margin-right: 10px;
-    }
-    .asiandiv2 {
-        margin-left: 15px;
+        margin-left: -80px;
+        margin-top: -100px;
     }
     
+    
     .asiandiv3 img {
-        height: 120px;
-        width: 120px;
+        height: 170px;
+        width: 170px;
         border-radius: 10px;
     
     }
     .asiandiv3 {
-        margin-top: 50px;
-        margin-left: 0px;
+        margin-top: 120px;
+        margin-left: -100px;
         
     }
     .asiantext {
           font-size: 20px;
           margin-left:  120px;
-          margin-top: 0px;
+          margin-top: 50px;
           width: 200px;
           height: 30px;
           background-color: white;
@@ -1432,9 +1645,7 @@ h6 {
         color: maroon;
         cursor: pointer;
     }
-    .lg {
-        display: none;
-    }
+    
     .horizontal {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -1482,16 +1693,16 @@ h6 {
     .horizontal3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 0;
+        
     }
     .item111 img {
         height: 180px;
         width: 180px; 
         border-radius: 10px; 
-        padding-left: 0px;    
+        margin-left: -0px;    
     }
     .item111 {
-        margin-left: 15px;
+        margin-left: 15px
         
     }
     .horizontal9 {
@@ -1557,7 +1768,13 @@ h6 {
            
     }
     .vidtext2 {
+        text-align: center;
         color:beige;
+        font-size: 15px;
+    }
+    .book {
+         margin-top: 10px;
+        height: 25px;
     }
     .footer {
         display: grid;
