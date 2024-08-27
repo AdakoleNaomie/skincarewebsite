@@ -1269,6 +1269,9 @@ h6 {
     .boxindiv1 {
         display: block;
     }
+    .our {
+        font-size: 2em;
+    }
     .nav1 {
         height: 50px;
         width: 100%;
@@ -1286,11 +1289,12 @@ h6 {
     .firstbgimg {
         background-image: url(bg\ 18.webp);
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 0px -20px;
+        background-size: cover;
+        background-position: center;
         height: 400px;
         position: relative;  
         width: 100%;
+        border-radius: 0;
        
          
     } 
@@ -1487,8 +1491,8 @@ h6 {
     }
     .imgindiv1 {
         background-image: url(photo\ 8.avif) ;
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 298px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1498,7 +1502,8 @@ h6 {
         
     }
     .texts {
-        font-size: 15px;
+        font-size: 10px;
+        margin-left: -190px;
     }
     p {
         padding-bottom: 1%;
@@ -1506,7 +1511,7 @@ h6 {
     }
     
     
-    .div3 img, .textindiv1 {
+    .div3 img {
         width: 300px;
         height: auto;
         margin-left: 0;
@@ -1565,8 +1570,8 @@ h6 {
     }
     .imgindiv2 {
         background-image: url(photo\ 9.avif) ;
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 298px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
