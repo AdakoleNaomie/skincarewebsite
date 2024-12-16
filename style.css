@@ -1302,76 +1302,73 @@ h6 {
         color: whitesmoke;
         border-radius: 10px;
         text-align: center;
-        height: 30vh;
+        height: 50vh;
         padding-left: 10px;
         margin-top: 50px;
         padding: 30px;
-    }
-    .footer1 {
+     
+     
+     }
+     .footer1 {
         display: flex;
         justify-content: space-between  ;
         width: 100%;
-        margin-top: -10%;
-    }
-    
-    .footer2 {
+     }
+     
+     .footer2 {
         display: flex;
         flex-direction: column;
         justify-content: start;
         padding-top: 20px;
-    }
-    .footer2 a, .footer2 h2 {
+     }
+     .footer2 a, .footer2 h2 {
         text-align: left;
         
         
-    }
-    .footer2 h2 {
+     }
+     .footer2 h2 {
         font-size: 15px;
         padding-bottom: 10px;
         padding-top: 1px;
-    }
-    h6 {
+     }
+     h6 {
         font-size: 20px;
         text-align: center;
         margin-top: 14px;
         
-    }
-    .susannaskinfooter {
+     }
+     .susannaskinfooter {
         font-size: 40px;
         padding-top: 1px;
         text-align: left;
-    }
-    .sub {
+     }
+     .sub {
         font-size: 15px;
         padding-top: 20px;
         color: whitesmoke;
         text-align: left;
-    }
-    .infoinfooter {
+     }
+     .infoinfooter {
         font-size: 5px;
-        margin-left: 1px;
+        padding-left: 1px;
         letter-spacing: 0px;
         
-    }
-    .servicesinfooter {
+     }
+     .servicesinfooter {
         font-size: 10px;
         letter-spacing: 0px;
-        margin-left: -20px;
-    }
-    .myacctinfooter {
+     }
+     .myacctinfooter {
         font-size: 30px;
         letter-spacing: 0px;
-        margin-left: -20px;
-
-
-    }
-    .footer2 a {
+     
+     }
+     .footer2 a {
         font-size: 13px;
         padding-bottom: 5px;
         color: whitesmoke;
-        margin-left: -20px;
-        text-align: center;
-    }
-    
+        padding-left: 20px;
+     }
+     
 }
 
