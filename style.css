@@ -95,7 +95,7 @@ body {
     height: 300px;
     width: 250px;
     margin-left: 190px;
-    margin-top: -300px;
+    margin-top: -294px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
  }
@@ -105,7 +105,7 @@ body {
  }
  .kb a {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 10px;
  }
  .kb a:hover {
@@ -118,7 +118,7 @@ body {
     height: 300px;
     width: 250px;
     margin-left: 190px;
-    margin-top: -276px;
+    margin-top: -268px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
  }
@@ -128,7 +128,8 @@ body {
  }
  .kb1 a {
     color: black;
-    padding-top: 10px;
+    padding-top: 5px;
+    font-size: 20px;
     
  }
  .kb1 a:hover {
@@ -141,7 +142,7 @@ body {
     height: 300px;
     width: 250px;
     margin-left: 170px;
-    margin-top: -277px;
+    margin-top: -272px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
  }
@@ -152,7 +153,7 @@ body {
  .kb2 a {
     padding-top: 15px;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
  }
  .kb2 a:hover {
     color: red;
@@ -164,7 +165,7 @@ body {
     height: 300px;
     width: 250px;
     margin-left: 180px;
-    margin-top: -277px;
+    margin-top: -272px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
  }
@@ -175,7 +176,7 @@ body {
  .kb3 a {
     padding-top: 15px;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
  }
  .kb3 a:hover {
     color: red;
@@ -193,15 +194,12 @@ h1, .middle-div {
 
 .vidbody {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     background-color:white; 
     margin-top: 60px;
     
 }
-.vid {
-    width: 100%;  
-      
-}
+
 .vidtext {
     position: absolute;
     text-align: center;
@@ -241,34 +239,18 @@ a {
     background-position: 0px -100px;
     height: 550px;
     position: relative;  
-    width: 100vw;
+    max-width: 100%;
     border-radius: 20px;
     
      
 } 
 
 
-    
-    
-/* .forshopnow {
-   margin-left: 50px;
-   margin-top: 250px;
-   height: 30px;
-   width: 150px;
-   font-size: 20px;
-   color: rgb(129, 59, 9);
-   background-color: beige;
-   font-family: lucida;
-   border: 1px solid black;   
-    
-} */
-   
-
-
 .horizontal7 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    max-width: 100%;
 }
 .divbody3 {
     background-color: white;
@@ -277,6 +259,13 @@ a {
     margin-top: 60px;
 }
 .div3 img {
+    height: 500px;
+    width: 570px;
+    border-radius: 10px;
+    margin-left: 50px;
+    
+}
+.div33 img {
     height: 500px;
     width: 570px;
     border-radius: 10px;
@@ -345,8 +334,7 @@ a {
 .horizontal9 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* display: flex;
-    justify-content: space-between; */
+    max-width: 100%;
     
 
 }
@@ -400,6 +388,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 50%;
+    max-width: 100%;
 }
 .boxindiv1 {
     display: flex;
@@ -433,6 +422,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-width: 100%;
     
 }
 .boxindiv2 {
@@ -467,6 +457,7 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1px;   
+    max-width: 100%;
      
 }
 
@@ -618,6 +609,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    max-width: 100%;
     
     
 }
@@ -755,6 +747,7 @@ h4 {
     border-radius: 10px;
     text-align: center;
     height: 50vh;
+    width: 100%;
     padding-left: 10px;
     margin-top: 50px;
     padding: 30px;
@@ -846,424 +839,7 @@ h6 {
     display: none;
 }
 
-@media only screen and (max-width:767px) {
-    .firstbgimg {
-        background-image: url(bg\ 18.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0 -100px;
-        height: 300px;
-        width: 80%;
-        position: relative;   
-    } 
-    /* h1 {
-        position: absolute;
-        font-size: 11px;
-        color:chocolate;
-        text-shadow: 3px 3px 3px gray;
-        left: 190px;
-        top: 2px;
-    } */
-    .forshopnow {
-        margin-left: 50px;
-        margin-top: 90px;
-        height: 20px;
-        width: 100px;
-        font-size: 15px;
-        color: rgb(129, 59, 9);
-        background-color: beige;
-        font-family: lucida;
-        border: 1px solid black;   
-         
-     }
-    
-    
 
-    .horizontal3, .horizontal7  {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .boxindiv1, .divbody1 {
-        height: auto;
-    
-    }
-    .boxindiv1 {
-        display: flex;
-        background-color: whitesmoke;
-        width: 70%;
-        color: black;
-        border-radius: 10px;
-        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-        margin-right: 10px;
-        
-        
-    }
-    .imgindiv1 {
-        background-image: url(photo\ 8.avif) ;
-        height: 310px;
-        width: 300px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        
-    }
-    .texts {
-        font-size: 15px;
-    }
-    p {
-        padding-bottom: 1%;
-        font-size: 10px;
-    }
-
-    .sm {
-        display: block;
-    }
-    
-    
-    .div3 img, .textindiv1 {
-        width: 500px;
-        height: auto;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
-    .div3 {
-        position: relative;
-        margin-left: 135px; 
-        margin-bottom: 0px;
-    }
-
-    .div4 {
-        top: 40%;
-        left: 55%;
-    }
-    .clean {
-        margin-top: 100px;
-        font-size: 12px;
-        margin-left: 10px;
-    }
-    .button1 {
-        position: absolute;
-        height: 22px;
-        width: 100px;
-        background-color: rgba(0, 0, 0, 0.1);
-        color: white;
-        border: 1px solid white;
-        top: 110px;
-        right: 1px;
-        
-    }
-    .toner {
-        font-size: 15px;
-    }
-    .button2 {
-        position: absolute;
-        height: 22px;
-        width: 100px;
-        background-color: rgba(0, 0, 0, 0.1);
-        color: white;
-        border: 1px solid white;
-        top: 5px;
-        right: 30px;
-        
-    }
-    .divbody2 ,.boxindiv2 {
-        height: auto;
-    }
-    .boxindiv2 {
-        display: flex;
-        background-color: whitesmoke;
-        width: 70%;
-        color: black;
-        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-        margin-right: 10px;
-    }
-    .imgindiv2 {
-        background-image: url(photo\ 9.avif) ;
-        height: 300px;
-        width: 300px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 0px;
-    
-    }
-    .textindiv2 {
-        height:210px ;
-        width: 300px;
-    }
-    .services {
-        font-size: 20px;
-    }
-    li {
-        font-size: 15px;
-        padding-bottom: 10px;
-    }
-    
-    .div5 {
-        top: 75%;
-        left: 55%;
-    }
-    .horizontal8 {
-        display: flex;
-        justify-content: space-between;
-        
-        
-    }
-    .adiv1 {
-        position: relative;
-        height: 500px;
-        width: 1200px;
-        background-color: white;
-        margin-top: 95px;
-        
-    }
-    .asiandiv1 img {
-        height: 220px;
-        width:220px;
-        border-radius: 10px;
-    }
-    .asiandiv1 {
-        margin-top: 120px;
-        margin-left:9px;
-    }
-    .asiandiv2 img {
-        height: 220px;
-        width: 220px;
-        border-radius: 10px;
-        margin-right: 22px;
-    }
-    .asiandiv2 {
-        margin-left: 25px;
-    }
-    
-    .asiandiv3 img {
-        height: 220px;
-        width: 220px;
-        border-radius: 10px;
-        margin-left: 22px;
-    
-    }
-    .asiandiv3 {
-        margin-top: 120px;
-        margin-left: 0px;
-        
-    }
-    .asiantext {
-          font-size: 20px;
-          margin-left:200px;
-          width: 300px;
-          height: 40px;
-          background-color: white;
-          border: 2px green solid;
-          color: green;
-    }
-    .asiantext:hover {
-        background-color: palevioletred;
-        color: maroon;
-        cursor: pointer;
-    }
-    .lg {
-        display: none;
-    }
-    .horizontal {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .one {
-        font-size: 15px;
-        padding: 5px 2px;
-        height: 30px;
-        width: 90%;
-        background-color: whitesmoke;
-        color: black;
-        cursor: pointer;
-        margin-top: 10px;
-        margin-left: 4px;
-        
-    }
-    .one:hover {
-        background-color: deeppink;
-        color: whitesmoke; 
-    }
-    .itemss1 {
-        height: 280px;
-        width: 160px;
-        margin-left: 20px;
-    }
-    .items img {
-        height: 90%;
-        width: 90%;
-    }
-    .text {
-        margin-top: 20px;
-        font-size: 20px;
-        margin-right: 0px;
-        height: 40px;
-        width: 300px;
-        margin-left: 27px;
-        border: 2px black solid;
-        background-color: whitesmoke;
-        color: black;
-        cursor: pointer;
-        transition: 0.3s ease-in-out;
-        
-    }
-    .horizontal3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0;
-    }
-    .item111 img {
-        height: 300px;
-        width: 300px; 
-        border-radius: 10px; 
-        margin-left: 26px;    
-    }
-    .item111 {
-        margin-left: 15px;
-        
-    }
-    .horizontal9 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
-    
-    }
-    .featured {
-        background-color: white;
-        height: auto;
-        width: 255px;
-        margin-top: 79px;
-        
-        
-    }
-    .featured1 img {
-        height: 150px;
-        width: 150px;
-        margin-left: 130px;
-        margin-bottom: 30px;
-    }
-    .ftext {
-        color: black;
-        padding-top: 50px;
-        font-size: 25px;
-        font-family: georgia;
-        margin-left: 130px;
-        border-top: none;
-        border-bottom: 2px solid black;
-    
-    }
-    .ftext2 {
-        border: none;
-        margin-left: 160px;
-        font-size: 15px;
-        font-family: "segoe ui";
-        
-    }
-    .fbutton {
-        height: 28px;
-        width: 150px;
-        margin-left: -80px;
-        background-color: purple;
-        color: white;
-        border: 1px black solid;
-        font-size: 16px;
-        margin-left: 55%;
-    }
-    .fbutton:hover {
-        background-color: black;
-        color: white;
-        cursor: pointer;
-    }
-
-    .vidtext {
-        position: absolute;
-        text-align: center;
-        font-size: 35px;
-        top: 230px;
-        font-family: lucida;
-           
-    }
-    .vidtext2 {
-        color:beige;
-    }
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        background-color:gray;
-        color: whitesmoke;
-        border-radius: 10px;
-        text-align: center;
-        height: 50vh;
-        padding-left: 10px;
-        margin-top: 50px;
-        padding: 30px;
-    }
-    .footer1 {
-        display: flex;
-        justify-content: space-between  ;
-        width: 100%;
-    }
-    
-    .footer2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        padding-top: 20px;
-    }
-    .footer2 a, .footer2 h2 {
-        text-align: left;
-        
-        
-    }
-    .footer2 h2 {
-        font-size: 15px;
-        padding-bottom: 10px;
-        padding-top: 1px;
-    }
-    h6 {
-        font-size: 20px;
-        text-align: center;
-        margin-top: 14px;
-        
-    }
-    .susannaskinfooter {
-        font-size: 40px;
-        padding-top: 1px;
-        text-align: left;
-    }
-    .sub {
-        font-size: 15px;
-        padding-top: 20px;
-        color: whitesmoke;
-        text-align: left;
-    }
-    .infoinfooter {
-        font-size: 5px;
-        padding-left: 1px;
-        letter-spacing: 0px;
-        
-    }
-    .servicesinfooter {
-        font-size: 10px;
-        letter-spacing: 0px;
-    }
-    .myacctinfooter {
-        font-size: 30px;
-        letter-spacing: 0px;
-
-    }
-    .footer2 a {
-        font-size: 13px;
-        padding-bottom: 5px;
-        color: whitesmoke;
-        padding-left: 20px;
-    }
-    
-
-}
 
 @media only screen and (max-width:479px) {
     .boxindiv1 {
@@ -1275,48 +851,28 @@ h6 {
     .nav1 {
         height: 3em;
         width: 26em;
-
     }
-
-    
     h1 {
         font-size: 20px;
-        margin-top: -20px;
-        margin-left: 60px;
-    
-        
-        
+        margin-top: -27px;
+        margin-left: 60px;   
     }
     .firstbgimg {
-        background-image: url(bg\ 18.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 20em;
+        height: 25em;
         position: relative;  
-        width: 27em;
-        border-radius: 0;
-       
-         
+        max-width: 100%;
+        background-position: center;
+        border-radius: 0px;
+  
     } 
     
-    /* .firstbgimg {
-        background-image: url(bg\ 18.webp);
-        background-repeat: no-repeat;
-         background-size: cover;
-         background-position:0px -20px ;
-        height: 200px;
-        width: 100%;
-        position: relative;   
-        
-    }  */
     .box2 {
-        width: 100%;
         height: 30px;
-        margin-top: 5px;  
+        margin-top: -1px;  
         color: chocolate;
-        margin-left: -250px;
-        font-size: 15px;
+       margin-left: -300px;
+       margin-right: 60%;
+        font-size: 20px;
         
         
         
@@ -1336,18 +892,15 @@ h6 {
                 height: 200px;
                 border-radius: 10px;
                 margin-top: 0px;
-                left: -150%;
-                margin-left: -20px;
+                left: 5%;
+                margin-left: -50px;
                 
      }
      .dimg{
-        background-image: url(bg\ 19.png);
-        background-position: center;
-        background-size: cover;
         height: 200px;
         width: 80px;
         margin-left: 65px;
-        margin-top: -206px;
+        margin-top: -201px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
      }
@@ -1357,22 +910,18 @@ h6 {
         
      }
      .kb a {
-        color: black;
-        font-size: 12px;
+        
+        font-size: 10px;
         padding-right: 20px;
         
      }
-     .kb a:hover{
-        color: red;
-     }
+    
      .dimg1 {
-        background-image: url(bg\ 3.jpg);
-        background-position: center;
-        background-size: cover;
+       
         height: 200px;
         width: 80px;
-        margin-left: 90px;
-        margin-top: -184px;
+        margin-left: 80px;
+        margin-top: -174px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
      }
@@ -1382,22 +931,19 @@ h6 {
         margin-top: -5px;
      }
      .kb1 a {
-        color: black;
+    
         padding-top: 5px;
-        margin-left: -10px;
+        margin-left: -7px;
+        font-size: 12px;
         
      }
-     .kb1 a:hover{
-        color: red;
-     }
+     
      .dimg2{
-        background-image: url(bg\ 2.webp);
-        background-position: center;
-        background-size: cover;
+       
         height: 200px;
         width: 80px;
         margin-left: 80px;
-        margin-top: -187px;
+        margin-top: -183px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
      }
@@ -1408,20 +954,14 @@ h6 {
      }
      .kb2 a {
         padding-top: 8px;
-        color: black;
-        font-size: 15px;
+        font-size: 12px;
         
      }
-     .kb2 a:hover{
-        color: red;
-     }
+    
      .dimg3{
-        background-image: url(bg\ 5.png);
-        background-position: center;
-        background-size: cover;
         height: 200px;
-        width: 80px;
-        margin-left: 91px;
+        width: 60px;
+        margin-left: 85px;
         margin-top: -182px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -1435,12 +975,9 @@ h6 {
      .kb3 a {
         padding-top: 8px;
         margin-left: -13px;
-        color: black;
-        font-size: 13px;
+        font-size: 12px;
      }
-     .kb3 a:hover{
-        color: red;
-     }
+   
      .dropdown:hover .dropdown-content {
         display: block;
      }
@@ -1453,32 +990,8 @@ h6 {
         margin-bottom: 10px;
      }
      
-    
-    /* h1 {
-        position: absolute;
-        font-size: 11px;
-        color:chocolate;
-        text-shadow: 3px 3px 3px gray;
-        left: 190px;
-        top: 2px;
-    } */
-    .forshopnow {
-        margin-left: -350px;
-        margin-top: 60px;
-        height: 20px;
-        width: 100px;
-        font-size: 15px;
-        color: rgb(129, 59, 9);
-        background-color: beige;
-        font-family: lucida;
-        border: 1px solid black;   
-         
-     }
-
-    /* .horizontal3, .horizontal7  {
-        grid-template-columns: repeat(1, 1fr);
-    } */
     .boxindiv1, .divbody1 {
+        max-width: 100%;
         height: auto;
     
     }
@@ -1488,23 +1001,12 @@ h6 {
         width: 20em;
         color: black;
         border-radius: 10px;
-        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);
-        
-        
-        
-        
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.1);  
     }
     
     .imgindiv1 {
-        background-image: url(photo\ 8.avif) ;
         height: 20em;
         width: 20em;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 0px;
         
     }
     .texts {
@@ -1527,15 +1029,29 @@ h6 {
     .div3 {
         position: relative;
         margin-left: 65px; 
-        margin-bottom: 0px;
+        
+        
+        
     }
+    .div33 img{
+        width: 300px;
+        height: auto;
+        margin-left:65px;
+        margin-top: -150px;
+    
 
+    }
+    .horizontal7{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+   
     .div4 {
         top: 40%;
         left: 55%;
     }
     .clean {
-
         font-size: 12px;
         margin-left: -50px;
     }
@@ -1577,16 +1093,8 @@ h6 {
         margin-right: 10px;
     }
     .imgindiv2 {
-        background-image: url(photo\ 9.avif) ;
         height: 20em;
         width: 20em;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 0px;
-        
-    
     }
     .textindiv2 {
         height:210px ;
@@ -1601,12 +1109,15 @@ h6 {
     }
     
     .div5 {
-        top: 75%;
-        left: 55%;
+        top: 16%;
+        left: 66%;
     }
     .horizontal8 {
         display: flex;
-        justify-content: space-between;  
+        justify-content: center;  
+        gap: 35px;
+        margin-top: -200px;
+        max-width: 100%;
     }
     .adiv1 {
         position: relative;
@@ -1619,6 +1130,7 @@ h6 {
         height: 170px;
         width:170px;
         border-radius: 10px;
+        margin-left: 15px;
         
     }
     .asiandiv1 {
@@ -1628,8 +1140,8 @@ h6 {
         height: 170px;
         width: 170px;
         border-radius: 10px;
-        margin-left: -80px;
-        margin-top: -100px;
+        margin-left: -105px;
+        margin-top: -80px;
     }
     
     
@@ -1637,6 +1149,7 @@ h6 {
         height: 170px;
         width: 170px;
         border-radius: 10px;
+        margin-left: -20px;
     
     }
     .asiandiv3 {
@@ -1650,15 +1163,9 @@ h6 {
           margin-top: 50px;
           width: 200px;
           height: 30px;
-          background-color: white;
-          border: 2px green solid;
-          color: green;
+        
     }
-    .asiantext:hover {
-        background-color: palevioletred;
-        color: maroon;
-        cursor: pointer;
-    }
+
     
     .horizontal {
         display: grid;
@@ -1676,18 +1183,15 @@ h6 {
         margin-left: 4px;
         
     }
-    .one:hover {
-        background-color: deeppink;
-        color: whitesmoke; 
-    }
+  
     .itemss1 {
-        height: 280px;
-        width: 160px;
-        margin-left: 20px;
+        height: 310px;
+        width: 180px;
+        margin-left: 10px;
     }
     .items img {
-        height: 90%;
-        width: 90%;
+        height: 85%;
+        width: 94%;
         
     }
     .text {
@@ -1707,7 +1211,7 @@ h6 {
     .horizontal3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
+        max-width: 100%;
     }
     .item111 img {
         height: 180px;
@@ -1719,6 +1223,7 @@ h6 {
         margin-left: 15px
         
     }
+    
     .horizontal9 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1797,7 +1302,7 @@ h6 {
         color: whitesmoke;
         border-radius: 10px;
         text-align: center;
-        height: 50vh;
+        height: 30vh;
         padding-left: 10px;
         margin-top: 50px;
         padding: 30px;
@@ -1806,6 +1311,7 @@ h6 {
         display: flex;
         justify-content: space-between  ;
         width: 100%;
+        margin-top: -10%;
     }
     
     .footer2 {
@@ -1843,24 +1349,28 @@ h6 {
     }
     .infoinfooter {
         font-size: 5px;
-        padding-left: 1px;
+        margin-left: 1px;
         letter-spacing: 0px;
         
     }
     .servicesinfooter {
         font-size: 10px;
         letter-spacing: 0px;
+        margin-left: -20px;
     }
     .myacctinfooter {
         font-size: 30px;
         letter-spacing: 0px;
+        margin-left: -20px;
+
 
     }
     .footer2 a {
         font-size: 13px;
         padding-bottom: 5px;
         color: whitesmoke;
-        padding-left: 20px;
+        margin-left: -20px;
+        text-align: center;
     }
     
 }
