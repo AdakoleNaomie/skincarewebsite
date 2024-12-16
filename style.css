@@ -71,6 +71,7 @@ body {
             border-radius: 10px;
             margin-top: 0px;
             left: -400%;
+            transition: 1200ms;
  }
  .dropdown-content img {
     height: 300px;
@@ -854,7 +855,7 @@ h6 {
     }
     h1 {
         font-size: 20px;
-        margin-top: -27px;
+        margin-top: -23px;
         margin-left: 60px;   
     }
     .firstbgimg {
@@ -894,6 +895,7 @@ h6 {
                 margin-top: 0px;
                 left: 5%;
                 margin-left: -50px;
+                position: relative;
                 
      }
      .dimg{
@@ -903,6 +905,7 @@ h6 {
         margin-top: -201px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        position: absolute;
      }
      .kb {
         display: flex;
@@ -917,13 +920,13 @@ h6 {
      }
     
      .dimg1 {
-       
         height: 200px;
         width: 80px;
         margin-left: 80px;
         margin-top: -174px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        position: absolute;
      }
      .kb1 {
         display: flex;
@@ -939,7 +942,7 @@ h6 {
      }
      
      .dimg2{
-       
+       position: absolute;
         height: 200px;
         width: 80px;
         margin-left: 80px;
@@ -965,6 +968,7 @@ h6 {
         margin-top: -182px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+        position: absolute;
      }
      .kb3 {
         display: flex;
