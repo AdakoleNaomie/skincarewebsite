@@ -889,7 +889,7 @@ h6 {
                 background-color: whitesmoke;
                 z-index: 1;
                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
-                width:170px;
+                width:160px;
                 height: 200px;
                 border-radius: 10px;
                 margin-top: 0px;
@@ -902,8 +902,8 @@ h6 {
      }
      .dimg{
         height: 200px;
-        width: 100px;
-        margin-left: 60px;
+        width: 80px;
+        margin-left: 65px;
         margin-top: -201px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -924,7 +924,7 @@ h6 {
         height: 200px;
         width: 80px;
         margin-left: 74px;
-        margin-top: -174px;
+        margin-top:-175px ;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         position: absolute;
@@ -946,8 +946,8 @@ h6 {
        position: absolute;
         height: 200px;
         width: 80px;
-        margin-left: 80px;
-        margin-top: -183px;
+        margin-left: 73px;
+        margin-top: -181px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
      }
